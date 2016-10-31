@@ -1,1 +1,7 @@
-stack-7.10.yaml
+flags: {}
+packages:
+- '.'
+resolver: lts-6.22
+extra-deps:
+- logging-effect-1.1.0
+- test-fixture-0.4.1.0
